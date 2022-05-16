@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+.t-left {
+    float: left
+}
+
+.t-right {
+    float: right
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.underNone {
+    border-bottom: none
+}
+
+.title {
+    width: 100%
+}
+
+.title li {
+    width: 25%;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    cursor: pointer;
+    padding: 8px 0;
+    transition: all .3s linear;
+    border-radius: 5px;
+    letter-spacing: 1px
+}
+
+.title li.cur {
+    background: linear-gradient(to right, #10c8af, #4ca2cd);
+    color: #fff;
+    font-weight: 500
+}
+
+.zong {
+    width: 100%;
+    overflow: hidden
+}
+
+.t-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+
+.tabCon {
+    display: block;
+    margin: 0 !important;
+    padding-top: 30px;
+}
+
+.chg-img {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.chg-img>img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: all 3s linear;
+    z-index: -10;
+    border: 1px dashed #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.chg-item-check {
+    opacity: 1 !important;
+    z-index: 10 !important
+}
+
+.chg-desc {
+    padding-left: 50px;
+    /* padding-top: 30px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media screen and (max-width: 950px){
+    .chg-img>img{
+        /* width: auto; */
+    }
+    
+}
+
+@media screen and (max-width: 920px){
+    .chg-desc {
+        padding-left: 10px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.chg-desc>h4 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 35px
+}
+
+.chg-desc>h4>span {
+    font-size: 1em;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.tn{
+    border-bottom: 2px dashed #10c8af;
+}
+.yet{
+    border-bottom: 2px solid #10c8af;
+}
+
+.chg-desc>p {
+    text-align: left;
+}
+.tab-slide{
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .chg-desc {
+        padding-left: 0
+    }
+}
+
+@media screen and (max-width:612px) {
+    .chg-img {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .chg-desc {
+        padding-left: 15px
+    }
+}
