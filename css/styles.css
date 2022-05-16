@@ -3908,7 +3908,7 @@ Background
  }
 
  .testimonials {
-   background: url(../images/bg-4.jpg) no-repeat center fixed;
+   background: url(https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/bg-4.jpg) no-repeat center fixed;
    -webkit-background-size: cover;
    background-size: cover;
    color: #ffffff;
@@ -5040,7 +5040,7 @@ Background
    margin-top: 80px;
    width: 80%;
    height: 385px;
-   background: url(../images/blog/rp-1.jpg) no-repeat;
+   background: url(https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/blog/rp-1.jpg) no-repeat;
    background-size: cover;
  }
 
@@ -5048,7 +5048,7 @@ Background
    margin-top: 80px;
    width: 80%;
    height: 385px;
-   background: url(../images/blog/rp-2.jpg) no-repeat;
+   background: url(https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/blog/rp-2.jpg) no-repeat;
    background-size: cover;
  }
 
@@ -5056,7 +5056,7 @@ Background
    margin-top: 80px;
    width: 100%;
    height: 385px;
-   background: url(../images/blog/lp-1.jpg) no-repeat;
+   background: url(https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/blog/lp-1.jpg) no-repeat;
    background-size: cover;
  }
 
@@ -6330,7 +6330,7 @@ Background
  }
 
  .footer-2 {
-   background-image: url(../images/footer_bg.jpg);
+   background-image: url(https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/footer_bg.jpg);
    background-size: cover;
    height: auto;
    background-position: 50% 0%;

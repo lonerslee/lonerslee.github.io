@@ -194,13 +194,13 @@ function renderCourse(data, id, width = null) {
                 var imgStr = '';
                 for(var j = 0; j< tabs[i].len; j++){
                     imgStr += `<div class="item">
-                        <a class="lightbox" data-lightbox-gallery="gallery2" href="images/tabs/tab-${i + 1}/${j + 1}.png">
-                            <img class="lazyOwl" src="images/tabs/tab-${i + 1}/${j + 1}.png" alt="">
+                        <a class="lightbox" data-lightbox-gallery="gallery2" href="https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/tabs/tab-${i + 1}/${j + 1}.png">
+                            <img class="lazyOwl" src="https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/tabs/tab-${i + 1}/${j + 1}.png" alt="">
                         </a>
                     </div>`
                 }
                 str += `<div class="tabCon row" style="${width ? 'width:' + width + 'px' : ''}">
-                    <div class="chg-img col-md-5 col-sm-12"><img class="chg-item" src="images/tabs/tab-${i + 1}/teacher.png" alt="" /></div>
+                    <div class="chg-img col-md-5 col-sm-12"><img class="chg-item" src="https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/tabs/tab-${i + 1}/teacher.png" alt="" /></div>
                     <div class="chg-desc col-md-7 col-sm-12">
                         <h4><span class="tn">${tabs[i].title}</span> <span class="yet">&nbsp;&nbsp;老师&nbsp;</span></h4>
                         ${data.content}
@@ -278,8 +278,8 @@ function renderSonCallery(type){
         var son = '';
         for(var j = 1; j <= arr[i].len; j++){
             son += `<div class="gall-item" id="${type + '-' + i + '-' + j}">
-            <a href="javascript:showImg('images/${str}${i + 1}/${j}.png')">
-                <img src="images/${str}${i + 1}/${j}.png" alt="">
+            <a href="javascript:showImg('https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/${str}${i + 1}/${j}.png')">
+                <img src="https://cdn.jsdelivr.net/gh/lonerslee/lonerslee.github.io@latest/images/${str}${i + 1}/${j}.png" alt="">
                 <span class="cover"><i class="icon-focus"></i></span>
             </a>
         </div>`
